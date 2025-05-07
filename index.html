@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COdox Editor - Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 25px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #4da6ff;
+    }
+
+    .nav-button {
+      background-color: #4da6ff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 50px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .nav-button:hover {
+      background-color: #3399ff;
+      transform: scale(1.05);
+    }
+
+    /* Hero Section */
+    .hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+
+
+    .ai-banner {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.15);
+  letter-spacing: 4px;
+  margin-bottom: 50px;
+  text-shadow: 0 0 10px rgba(77, 166, 255, 0.2); /* subtle neon glow */
+}
+
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      max-width: 600px;
+    }
+
+    .hero .try-button {
+      background-color: #4da6ff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .hero .try-button:hover {
+      background-color: #3399ff;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8rem;
+      color: #cccccc;
+    }
+
+    .logo-img {
+      height: 30px;
+    }
+
+    img {
+      filter: invert(45%) sepia(100%) saturate(500%) hue-rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#">
+      <img src="CO.svg" alt="COdox Logo" class="logo-img">
+    </a>
+    <a href="https://codox-editor.vercel.app" class="nav-button">Try it for Free</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    
+    <h1>Welcome to COdox Editor</h1>
+    <p>The collaborative, real-time document editing experience you've been waiting for. Create, edit, and innovate — together.</p>
+    <div class="ai-banner">Now enhanced with an intelligent AI chatbot</div>
+    <a href="https://codox-editor.vercel.app" class="try-button">Try it for Free</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 COdox. All rights reserved.
+  </footer>
+
+</body>
+</html>
